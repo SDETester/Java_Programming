@@ -1,0 +1,126 @@
+Java Programming Day08
+
+Topics: Ternary Operators
+		Switch
+
+Package name: day08_ternaries_switch
+
+Warmup task:
+	1. Create a class called Elevator. A variable named floorNumber is given, write a program that can display the floor info
+			when floorNum is 1 -> print "Floor 1 selected. Companies: Lobby, Verizon, Starbucks"
+			when floorNum is 2 -> print "Floor 2 selected. Companies: Cydeo, NASA, Intelsat"
+			when floorNum is 3 -> print "Floor 3 selected. Companies: Lyft, BofA, Stake house"
+
+			anything else: print "Invalid floor - 6"
+
+	 2. Create a class called FieldTrip. Your school goes on a Field trip each year.The place you go will be based on your grade.
+		Given a variable gradeNumber figure out the details of your field trip. Print the information at the end.
+			    Data based on grade:
+			        grade - 1
+				        location -  Apple orchard
+				        number of groups - 3
+				        teacher in charge - Ms. Smith
+
+			        grade - 2
+				        location - Zoo
+				        number of groups - 7
+				        teacher in charge - Mr. Lee
+
+			        grade - 3
+				        location - Aquarium
+				        number of groups - 5
+				        teacher in charge - Ms. Wilson
+
+			        grade - 4
+				        location - Movie theater
+				        number of groups - 2
+				        teacher in charge - Ms. Reyes
+
+			        grade - 5
+				        location - Museum
+				        number of groups - 5
+				        teacher in charge - Ms. Lela
+
+			        grade - 6
+				        location - Six Flags
+				        number of groups - 8
+				        teacher in charge - Mr. Watt
+
+			        for any other gradeNumber:
+			        	location - Unknown
+			        	numer of gourps - 0
+			        	teacher in charge - Unknown
+
+
+
+single if: for one condition
+
+	if(Conidition1){
+		StatementA
+	}
+
+	StatementA: Condition1 is true
+
+
+If & Else: for TWO condition ONLY
+
+	if(Condition1){
+		StatementA
+	}else{
+		StatementB
+	}
+
+
+	StatementA: Condition1 is true
+	StatementB: Condition1 is false
+
+
+		Yes or No
+		Pass or Failed
+		Odd or Even
+		Eligible or not eligible
+		employeed or not employeed
+		fulltime or part time
+		...
+
+
+Multi-branch if: for three or more conditions
+
+		if(Condition1){
+			A
+		}else if(Condition2){}
+			B
+		}else if(COndition3){}
+			C
+		}
+		...
+		else{
+			D
+		}
+
+		ONLY one block gets executed
+
+		A: Condition1 is true
+		B: Condition1 is false, Condition2 is true
+		C: Condition1 & 2 are false, Condition3 is true
+		D: all the previous conditions are false
+
+
+Nested If: for pre-conditions
+
+		if(Pre-Condition){
+
+			if(ConditionA){
+				A
+			}else{
+				B
+			}
+
+		}else{
+			C
+		}
+
+
+		A: Pre-Condition is true, ConditionA is true
+		B: Pre-Condition is true, ConditionA is false
+		C: Pre-Condition is false

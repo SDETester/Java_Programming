@@ -1,0 +1,109 @@
+Java Programlama Günü31
+
+Konular OOP Kalıtım:
+			Korumalı Erişim Değiştirici
+			Yöntem Geçersiz Kılma
+
+Paket adı: day31_inheritance
+
+Isınma Görevleri:
+	1. Araç adında bir sınıf oluşturun
+			Değişkenler:
+				marka, model, yıl, renk, fiyat
+
+			Tüm alanları kapsülleyin
+
+			Tüm alanları ayarlayabilen bir kurucu ekleyin
+
+			Yöntemler:
+				toString()
+
+	2. Araba adında bir Araç alt sınıfı oluşturun
+
+			Ekstra yöntemler:
+				drive()
+
+	3. Bisiklet adında bir Araç alt sınıfı oluşturun
+
+			Ekstra yöntemler:
+				ride()
+
+	4. Tekne adında bir Araç alt sınıfı oluşturun
+
+			Ekstra yöntemler:
+				sail()
+
+	5. AirPlane adında bir Araç alt sınıfı oluşturun
+
+			Ekstra yöntemler:
+				fly()
+
+
+
+
+this anahtar sözcüğü: örnekleri ifade eder. geçerli sınıf
+
+		this. : örnek değişkenleri ve örnek yöntemleri çağırır
+		this() : kurucuyu çağırır
+
+
+super anahtar sözcüğü: örneklere atıfta bulunur. ana sınıf
+
+		super. : örnek değişkenleri ve örnek yöntemleri çağırır
+		super() : kurucuyu çağırır
+
+
+
+Java Programming Day31
+
+Topics: OOP Inheritance:
+			Protected Access Modifier
+			Method Overriding
+
+Package name: day31_inheritance
+
+Warmup Tasks:
+	1. Create a class named Vehicle
+			Variables:
+				brand, model, year, color, price
+
+			Encapsulate all the fields
+
+			Add a constructor that can set all the fields
+
+			Methods:
+				toString()
+
+	2. Create a sub class of Vehicle named Car
+
+			Extra methods:
+				drive()
+
+	3. Create a sub class of Vehicle named Bike
+
+			Extra methods:
+				ride()
+
+	4. Create a sub class of Vehicle named Boat
+
+			Extra methods:
+				sail()
+
+	5. Create a sub class of Vehicle named AirPlane
+
+			Extra methods:
+				fly()
+
+
+
+
+this keyword: reffers to the instances. current class
+
+		this. : calls instance variables & instance methods
+		this() : calls the constructor
+
+
+super keyword: refers to the instances. parent class
+
+		super. : calls instance variables & instance methods
+		super() :  calls the constructor

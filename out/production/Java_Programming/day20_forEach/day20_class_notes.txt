@@ -1,0 +1,79 @@
+Java Programlama Günü20
+
+Konular Dize Yöntemleri
+		Diziler Yardımcı Programı
+		Her Bir Döngü İçin
+
+paket adı: day20_forEach
+
+ısınma görevleri:
+	1. Bir tamsayı dizisinin her bir tek sayısını 2 ile çarpabilen bir program yazın
+		            Örn:
+		            	dizi = [1,2,3,4,5];
+
+	                çıktı:
+	                	dizi =[2,2,6,4,10]
+
+	2. İki tamsayı dizisini birleştirebilen bir program yazınız
+	        Örn:
+	            arr1 = {1,2,3,4}
+	            arr2 = {5,6}
+
+	        çıktı
+	            arr3 = {1,2,3,4,5,6}
+
+
+	3. Bir tamsayı dizisini ters çevirebilen ve yeni bir dizi olarak döndüren bir program yazınız.
+	        Örn:
+	            dizi = {1,2,3,4,5};
+
+	        çıktı:
+	            reversedArray = {5,4,3,2,1};
+
+
+
+
+String Yöntemleri:
+	toCharArray(): char dizisi döndürür
+	split(CharSequence): String dizisi döndürür
+
+Translated with www.DeepL.com/Translator (free version)
+
+Java Programming Day20
+
+Topics: String Methods
+		Arrays Utility
+		For Each Loop
+
+package name: day20_forEach
+
+warmup tasks:
+	1. write a program that can multiply each odd number of an integer array by 2
+		            ex:
+		            	array = [1,2,3,4,5];
+
+	                output:
+	                	array =[2,2,6,4,10]
+
+	2. write a program that can merge two arrays of integers
+	        Ex:
+	            arr1 = {1,2,3,4}
+	            arr2 = {5,6}
+
+	        output
+	            arr3 = {1,2,3,4,5,6}
+
+
+	3. Write a program that can reverse an array of integers and returns it as new array
+	        ex:
+	            array = {1,2,3,4,5};
+
+	        output:
+	            reversedArray = {5,4,3,2,1};
+
+
+
+
+String Methods:
+	toCharArray(): returns char array
+	split(CharSequence): returns String array

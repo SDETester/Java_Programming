@@ -1,0 +1,100 @@
+Java Programlama Günü28
+
+Konular OOP Kapsülleme
+
+Paket adı: day28_encapsulation
+
+Isınma görevleri:
+	1. Person adında bir sınıf oluşturun:
+			Değişkenler:
+				name, age, gender, language, planet, isHuman, hasNose, numberOfWings, numberOfHead
+
+			Adı başlatmak için bir kurucu ekleyin
+
+			İsim ve yaşı başlatmak için bir kurucu ekleyin
+
+			İsim ve dili başlatmak için bir kurucu ekleyin
+
+			İsim ve cinsiyeti başlatmak için bir kurucu ekleyin
+
+			İsim, yaş ve cinsiyeti başlatmak için bir kurucu ekleyin
+
+			İsim, yaş, cinsiyet ve dili başlatmak için bir kurucu ekleyin
+
+			Tüm statikleri başlatmak için bir statik blok ekleyin
+
+			Yöntemler
+				printPlanetName()
+				eat(String food)
+				drink(String drink)
+				toString()
+
+
+
+Özel Sınıf:
+	1. Sınıf ve Nesne
+	2. Örnek Değişkenler ve Örnek Yöntemler
+	3. Statik (Statik Değişkenler, Statik Yöntemler, Statik Blok)
+	4. Kurucu
+
+
+statik vs örnek:
+		tek kopya vs çoklu kopya
+
+
+Java neden saf nesne tabanlı bir programlama değildir?
+		1. İlkeller
+		2. Statik
+		3. numaralandırmalar
+
+
+Translated with www.DeepL.com/Translator (free version)
+Java Programming Day28
+Java Programming Day28
+
+Topics: OOP Encapsulation
+
+Package name: day28_encapsulation
+
+Warmup tasks:
+	1. Create a class named Person:
+			Variables:
+				name, age, gender, language, planet, isHuman, hasNose, numberOfWings, numberOfHead
+
+			Add a constructor to initialize name
+
+			Add a constructor to initialize name and age
+
+			Add a constructor to initialize name and language
+
+			Add a constructor to initialize name and gender
+
+			Add a constructor to initialize name, age and gender
+
+			Add a constructor to initialize name, age, gender, language
+
+			Add a static block to initialize all the statics
+
+			Methods:
+				printPlanetName()
+				eat(String food)
+				drink(String drink)
+				toString()
+
+
+
+Custom Class:
+	1. Class & Object
+	2. Instance Variables & instance methods
+	3. Statics (Static Variables, Static Methods, static Block)
+	4. Constructor
+
+
+static vs instance:
+		one copy vs multiple copies
+
+
+Why java is not pure object oreinted programming:
+		1. primitives
+		2. static
+		3. enumerations

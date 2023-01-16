@@ -1,0 +1,153 @@
+Java Programlama Günü18
+
+Konular Java Bellek Tahsisi
+	Çöp Toplama
+
+paket adı: day18_garbageCollection
+
+Isınma görevleri:
+	1. Pizza adında bir sınıf oluşturun:
+			Öznitelikler:
+				1. boyut
+				2. numberOfCheeseTopping
+				3. numberOfPepperoniTopping
+
+			Eylemler:
+				calcCost(): pizzanın toplam maliyetini döndürür
+				toString(): pizza boyutunu, her bir malzemenin miktarını ve calcCost() tarafından hesaplanan pizza maliyetini içeren bir String döndürür
+
+		Pizza maliyeti şu şekilde belirlenir:
+		                S: 10 $ + malzeme başına 2 $
+		                M: 12 $ + malzeme başına 2 $
+		                L: 14 $ + malzeme başına 2 $
+
+	2. BankAccount adında özel bir sınıf oluşturun:
+			Öznitelikler:
+				1. accountHolder
+				2. hesapNumarası
+				3. Denge
+
+			Eylemler:
+
+				1. setInfo(): Hesap Sahibi ve Hesap Numarası özniteliklerini ayarlar
+		            	2. toString(): hesap bilgilerinin tamamını görüntüler
+		                3. checkBalance():mevcut bakiyeyi görüntüler
+		                4. depozito ( miktar ) : bakiyeyi belirtilen miktar kadar artırır
+		        	5. çek (miktar): bakiyeyi belirtilen miktar kadar azaltır
+
+
+Java Lab5: String, döngüler
+Java Lab6: Özel Yöntemler
+Java Lab7: Özel CLass ve Çöp Toplama
+
+
+
+
+Sağır değerler:
+	byte, short, int, long ====> 0
+	float, double =======> 0.0
+	boolean ======> false
+
+	tüm ilkel olmayanlar için ===> null
+
+
+
+
+Sınıf ve Nesne bölüm1:
+	1. Sınıf ve Nesne
+	2. Örnek değişkenler Yöntemler
+	3. Bellek tahsisi
+	4. Çöp Toplama
+
+
+Konular
+	Dizi
+	Sarmalayıcı Sınıflar
+	Dizi Üstü
+	YerelTarih ve Saat
+
+
+
+Sınıf ve Nesne bölüm2:
+	Kurucular
+	Statik
+	statik vs Örnek
+	Başlatıcı Bloklar
+
+
+Translated with www.DeepL.com/Translator (free version)
+
+Java Programming Day18
+
+Topics: Java Memory Allocation
+	Garbage Collection
+
+package name: day18_garbageCollection
+
+Warmup tasks:
+	1. Create a class named Pizza:
+			Attributes:
+				1. size
+				2. numberOfCheeseTopping
+				3. numberOfPepperoniTopping
+
+			Actions:
+				calcCost(): returns the total cost of the pizza
+				toString(): returns a String containing the pizza size, quantity of each topping, and the pizza cost as calculated by calcCost()
+
+		Pizza cost is determined by:
+		                S: $10 + $2 per topping
+		                M: $12 + $2 per topping
+		                L: $14 + $2 per topping
+
+	2. Create a custom class named BankAccount:
+			Attributes:
+				1. accountHolder
+				2. accountNumber
+				3. balance
+
+			Actions:
+				1. setInfo(): sets the account Holder and account Number attributes
+		            	2. toString(): displays the full account info
+		                3. checkBalance():displays the available balance
+		                4. deposit ( amount ) : increases the balance by the specified amount
+		        	5. withdraw (amount): decreases the balance by the specified amount
+
+
+Java Lab5: String, loops
+Java Lab6: Custom Methods
+Java Lab7: Custom CLass & Garbage Collection
+
+
+
+
+Deafult values:
+	byte, short, int, long ====> 0
+	float, double =======> 0.0
+	boolean   ======> false
+
+	for all non primitives ===> null
+
+
+
+
+Class & Object part1:
+	1. Class vs Object
+	2. Instance variables Methods
+	3. Memory allocation
+	4. Garbage Collection
+
+
+Topics:
+	Array
+	Wrapper Classes
+	Array LIst
+	LocalDate & Time
+
+
+
+Class & Object part2:
+	Constructors
+	Statics
+	static vs Instance
+	Initializer Blocks

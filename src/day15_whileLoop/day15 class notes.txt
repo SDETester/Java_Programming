@@ -1,0 +1,61 @@
+Java Programlama Günü15
+
+Konular Dallanma İfadeleri
+					Mola
+					devam et
+
+		While Döngüsü Giriş
+
+paket adı: day15_whileLoop
+
+Isınma görevleri:
+	1. Kullanıcıdan bir sayıyı 5 kez girmesini isteyebilen ve maksimum sayıyı döndüren bir program yazın
+
+	2. Kullanıcıdan bir sayıyı 5 kez girmesini isteyebilen ve minimum sayıyı döndüren bir program yazın
+
+	3. Bir dizeden yinelenen karakterleri kaldırabilen bir program yazın
+
+				Örn:
+					str = "aabbbcccc"
+
+					Çıktı:
+						abc
+
+
+
+Dallanma (Atlama) ifadeleri:
+		1. Dönüş
+		2. Mola
+		3. Devam et
+
+Translated with www.DeepL.com/Translator (free version)
+
+Java Programming Day15
+
+Topics: Branching Statements
+					break
+					continue
+
+		While Loop Intro
+
+package name: day15_whileLoop
+
+Warmup tasks:
+	1. Write a program that can ask the user to enter a number for 5 times and returns the maximum number
+
+	2. Write a program that can ask the user to enter a number for 5 times and returns the minimum number
+
+	3. Write a program that can remove the duplicated characters from the a string
+
+				Ex:
+					str = "aabbbcccc"
+
+					output:
+						abc
+
+
+
+Branching (Jump) statements:
+		1. Return
+		2. Break
+		3. Continue

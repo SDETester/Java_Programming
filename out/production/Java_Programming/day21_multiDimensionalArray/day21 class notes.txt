@@ -1,0 +1,55 @@
+Java Programlama Günü21
+
+Konular Çok Boyutlu Dizi
+
+paket adı: day21_multiDimentionalArray
+
+Isınma görevleri:
+	1. Dizgideki tüm fazladan boşlukları kaldırabilen bir program yazın
+			Örn:
+				str = " Merhaba dünya Java'yı seviyorum "
+
+        	Çıktı:
+        		Merhaba dünya Java'yı seviyorum
+
+	2. Bir dizenin başka bir dizeyle aynı harflerden oluşup oluşmadığını kontrol eden bir fonksiyon yazın. (Anagram Görevi)
+
+            Örn: str1 = "kalp"
+            	str2 = "toprak"
+
+            çıktı:
+            	doğru
+
+        		str1 = "java"
+        		str2 = "python"
+
+    		çıktı:
+    			yanlış
+
+
+        dinle sildent
+
+
+
+düzenli değişken:
+
+    int yaş = 10;
+    int puan = 75;
+    String name = "Java";
+
+
+Dizi: özel değişken, boyut sabittir
+
+    Tek Boyutlu Dizi:[] , birden fazla eleman içermek için kullanılır
+
+            int[] puanlar = {10, 20, 30, 40};
+
+
+            toString() ==> SADECE tek boyutlu diziler için
+
+    Çok Boyutlu Dizi: [][] ..., çoklu dizileri içermek için kullanılır
+
+
+        deepToString() ==> çok boyutlu boyutlu diziler için SADECE
+
+Translated with www.DeepL.com/Translator (free version)

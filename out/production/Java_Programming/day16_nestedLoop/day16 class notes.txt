@@ -1,0 +1,121 @@
+Java Programlama Günü16
+
+Konular Do-While Döngüsü
+	While vs Do-While
+	İç İçe Döngü
+
+paket adı: day16_nestedLoop
+
+Isınma görevleri:
+	1. CydeoLogIn adında bir sınıf oluşturun. Cydeo Uygulamasının oturum açma işlevi için bir kod yazıyorsunuz, kimlik bilgilerinizin şu şekilde olduğunu varsayın:
+                    kullanıcı adı: Cydeo
+                    şifre: WoodenSpoon
+
+        Kullanıcıdan kimlik bilgilerini girmesini isteyin.
+                Kimlik bilgileri eşleşirse, programınız "Oturum açıldı" yazdırmalıdır.
+
+                Kimlik bilgileri eşleşmezse, program aşağıdakilere izin vermelidir
+                kullanıcının doğru kimlik bilgilerini girmek için üç deneme yapması
+
+                eğer üç deneme de başarısız olursa, "Hesabınız şanssız." yazdırın.
+
+
+        2. Bir dizeden bir karakterin sıklığını döndürebilen bir program yazın
+        	Örn:
+        		str = "aaabbbbccccc"
+        		ch = 'c'
+
+		     çıktı:
+		     	5
+
+	3.  Bir cümleden java kelimesinin sıklığını döndürebilen bir program yazınız
+		    Örn:
+		        cümle = "java JAVA jAvA JAva"
+
+		    çıktı:
+		        4
+
+
+
+  "xxyyyzzz"
+
+
+Görev:
+	1. Basit bir hesap makinesi için bir program yazın
+			1.1 kullanıcıdan ilk sayıyı girmesini isteyin: (çift)
+			1.2 kullanıcıdan bir matematik operatörü girmesini isteyin: (-, +, *, /)
+				kullanıcı geçersiz matematik operatörü girerse, kullanıcı geçerli bir operatör girene kadar aynı adımı tekrarlayın
+
+			1.3 ikinci sayıyı girmesini isteyin: (çift)
+			1.4 hesaplama sonucunun görüntülenmesi
+			1.5 Devam etmek ister misiniz? (Evet/Hayır)
+
+
+
+	2. Karakter Sıklığı:
+			"AAABBCCCCDDDDD"
+
+			çıktı:
+				A3B2C4D5
+
+Translated with www.DeepL.com/Translator (free version)
+
+Java Programming Day16
+
+Topics: Do-While Loop
+	While vs Do-While
+	Nested Loop
+
+package name: day16_nestedLoop
+
+Warmup tasks:
+	1. Create a class named CydeoLogIn. you are writing a code for the log-in function of the Cydeo Application, assume that your credentials are:
+                    username: Cydeo
+                    password: WoodenSpoon
+
+        Ask the user to enter their credentials.
+                If credentials are matched, your program should print "Logged in."
+
+                If the credentials are not matched, the program should allow
+                the user to have three attempts to enter correct credentials
+
+                if all three attempts are failed, then print "Your account is lucked."
+
+
+        2. write a program that can return the frequency of a character from a string
+        	Ex:
+        		str = "aaabbbbccccc"
+        		ch = 'c'
+
+		     output:
+		     	5
+
+	3.  Write a program that can return the frequency of the word java from a sentence
+		    Ex:
+		        sentence = "java JAVA jAvA JAva"
+
+		    output:
+		        4
+
+
+
+  "xxyyyzzz"
+
+
+Task:
+	1. Write a program for a simple calculator
+			1.1 ask the user to enter first number: (double)
+			1.2 ask the user to enter a math operator: (-, +, *, /)
+				if the user enters invalid math operator, reapet the same step until user enters a valid operator
+
+			1.3 ask the to enter the second number: (double)
+			1.4 display the calculation result
+			1.5 Would you like to continue? (Yes/No)
+
+
+
+	2. FrequencyOfCharacters:
+			"AAABBCCCCDDDDD"
+
+			output:
+				A3B2C4D5

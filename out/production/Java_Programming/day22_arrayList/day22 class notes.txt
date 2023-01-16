@@ -1,0 +1,40 @@
+Java Programlama Günü22
+
+Konular Sarmalayıcı Sınıflar
+		ArrayList Giriş
+
+paket adı: day22_arrayList
+
+ısınma görevleri
+	1. URL'ye gidin: https://login.cydeo.com/
+			1.1 my.cydeo.com hesabınızı kullanarak dashboard uygulamasında oturum açın
+			1.2 Kontrol panelindeki Github JDB Organizasyon Uygulamasına tıklayın
+
+	2. İki boyutlu bir tamsayı dizisinden minimum ve maksimum sayıları bulabilen bir program yazınız
+		Örn:
+			dizi = { {100, 20, 300}, {10, 1000, 50}, {-200, 400, 0} };
+
+			çıktı:
+				Minimum sayı: -200
+				Maksimum sayı: 1000
+
+
+
+Veri Yapısı:
+
+		Dizi: boyut sabittir, hem ilkelleri hem de ilkel olmayanları destekler, çok boyutlu olabilir
+		Koleksiyon: boyut dinamiktir, SADECE ilkel olmayanları destekler
+		Harita: boyut dinamiktir, SADECE ilkel olmayanları destekler
+
+
+
+Sarmalayıcı Sınıf yöntemleri:
+
+		parse yöntemi: ilkel tür döndürür, String'i ilkel değerlere dönüştürür
+
+		valueOf yöntemi: wrapepr sınıf nesnelerini döndürür, String'i wrapper sınıf değerlerine dönüştürür
+
+
+
+
+Translated with www.DeepL.com/Translator (free version)

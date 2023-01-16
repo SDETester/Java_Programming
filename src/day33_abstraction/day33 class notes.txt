@@ -1,0 +1,138 @@
+
+
+Konular: OOP Soyutlama
+			- Soyut Yöntem
+			- Soyut Sınıf
+
+Paket adı: day33_abtraction
+
+Isınma görevleri:
+	1. CydeoDevStudent (final) adlı bir Person alt sınıfı oluşturun (day32 paketinden)
+			Ekstra Değişkenler:
+				id (nihai), parti adı, parti numarası, programlama dili (statik ve nihai)
+
+			Ekstra koşullar:
+					1. Yaş en az 18 yaşında olmalıdır.
+					2. partiAdı YALNIZCA "Zero to Hero" veya "Alumni Dev" olarak ayarlanabilir
+					3. BatchNumber sıfır veya negatif olarak ayarlanamaz
+
+			eat() & drink() yöntemlerini geçersiz kılın ve programlamaLanguage değişkenini yöntem gövdesine dahil edin
+
+			toString Yöntemini geçersiz kılın ve id, batchName, batchNumber değişkenlerini dahil edin
+
+
+
+OOP Soyutlama:
+		1. soyut yöntem
+		2. soyut sınıf
+		3. arayüz
+		4. genişletir ve uygular
+
+
+	Ana sınıfın soyut yöntemleri, alt (soyut olmayan) sınıfta geçersiz kılınmalıdır.
+
+
+
+yöntemler:
+
+	genel statik geçersiz yöntemAdı(Paremetreler) { }
+
+
+
+
+çalışanGörevi
+
+	Çalışan:
+		Değişkenler:
+			isim, yaş, cinsiyet, kimlik, iş Unvanı, maaş ....
+
+		Yöntemler:
+		  soyut çalışma();
+
+    Öğretmen:
+    	çalışmak () { öğretim }
+
+
+	Geliştirici:
+		iş() { kodlama }
+
+	test cihazı:
+		iş(){ test etme }
+
+	sürücü:
+		iş() { araba kullanmak }
+
+	...
+
+
+
+
+
+Java Programming Day33
+
+Topics: OOP Abstraction
+			- Abstract Method
+			- Abstract Class
+
+Package name: day33_abstraction
+
+Warmup tasks:
+	1. Create a sub class of Person (from day32 package) named CydeoDevStudent (final)
+			Extra Variables:
+				id (final), batchName, batchNumber, programmingLanguage(static & final)
+
+			Extra conditions:
+					1. Age has to be at least 18 years old
+					2. batchName can ONLY be set to "Zero to Hero" or "Alumni Dev"
+					3. batchNumber can not be set to zero or negative
+
+			Override the eat() & drink() methods and include the programmingLanguage variable in methods body
+
+			Override the toString Method and include the id, batchName, batchNumber variables
+
+
+
+OOP Abstractrion:
+		1. abstrct method
+		2. abstract class
+		3. interface
+		4. extends vs implements
+
+
+	Parent class' abstract methods must be overriden in child (non-abstract) class
+
+
+
+methods:
+
+	public static void methodName(Paremeters) { }
+
+
+
+
+employeeTask
+
+	Employee:
+		Variables:
+			name, age, gender, id, jobTitle, salary ....
+
+		Methods:
+		  abstract work();
+
+    Teacher:
+    	work(){ teaching }
+
+
+	Developer:
+		work() { coding }
+
+	Tester:
+		work(){ testing }
+
+	Driver:
+		work() { driving }
+
+	...
+
+
+

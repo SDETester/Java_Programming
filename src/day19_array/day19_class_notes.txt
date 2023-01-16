@@ -1,0 +1,121 @@
+Java Programlama Günü19
+
+Konular Dizilere Giriş
+
+paket adı: day19_array
+
+
+Veri Yapısı: Verileri verimli bir şekilde kullanmak için. verileri düzenli bir şekilde saklamamızı sağlar
+
+			1. Dizi
+			2. Koleksiyon
+			3. Harita
+
+
+düzenli değişken:
+
+		DataType variableName;
+		int yaş
+		char cinsiyet;
+		String isim;
+		....
+
+Dizi:
+		DataType[] variableName;
+
+
+
+Diziler Yardımcı sınıfı:  Diziler
+
+		"java.util" içinde sunulmuştur
+
+
+		import java.util.Arrays;
+
+
+
+Görev:
+	1. Bir diziden maksimum sayıyı bulabilen bir program yazın
+
+	2. Bir diziden minimum sayıyı bulabilen bir program yazınız
+
+	3. Bir char dizisi oluşturun ve tüm alfabe harflerini artan sırada saklayın
+
+	4. Bir char dizisi oluşturun ve tüm alfabe harflerini azalan sırada saklayın
+
+	5. OrtalamaSayı:
+	            1. Kullanıcıya kaç sayı girmek istediğini sorun
+	            2. Kullanıcıdan tüm girdileri alın ve bunları bir dizide saklayın
+	            3. Diziyi yineleyin ve ortalama sayıyı döndürün
+
+
+    6. Öğeler
+			1. Uzunluğu 5 olan items adında bir dizi oluşturun
+			2. Uzunluğu 5 olan fiyatlar adında bir dizi oluşturun
+			3. Kullanıcıdan ürün adını ve fiyatını 5 kez girmesini ve bunları ürün ve fiyat dizilerinde saklamasını isteyin
+			4. Dizilerin toplam fiyatını hesaplayın
+			5. Her bir ürün adını ve fiyatını ayrı satırlarda görüntüleyin
+
+						ÜrünAdı -- Fiyat
+
+Translated with www.DeepL.com/Translator (free version)
+
+Java Programming Day19
+
+Topics: Arrays Intro
+
+package name: day19_array
+
+
+Data Structure: to use the data efficeintly. allows us to store the data in an organized manner
+
+			1. Array
+			2. Collection
+			3. Map
+
+
+regular variable:
+
+		DataType  variableName;
+		int        age;
+		char       gender;
+		String     name;
+		....
+
+Array:
+		DataType[]  variableName;
+
+
+
+Arrays Utility class:  Arrays
+
+		presented in "java.util"
+
+
+		import java.util.Arrays;
+
+
+
+Task:
+	1. Write a program that can find the maximum number from an array
+
+	2. Write a program that can find the minimum number from an array
+
+	3. Create a char array and store all the alphabet letters in ascending order
+
+	4. Create a char array and store all the alphabet letters in descending order
+
+	5. AverageNumber:
+	            1. Ask the user how many numbers they want to enter
+	            2. get all the inputs from the user and store them into an array
+	            3. Iterate the array & return the average number
+
+
+    6. Items
+			1. Create an array named items with the length of 5
+			2. Create an array named prices with the length of 5
+			3. Ask user to enter item name and price 5 times and store them into the items and prices arrays
+			4. calculate the total price of the arrays
+			5. display each item name and price in separate lines
+
+						ItemName -- Price

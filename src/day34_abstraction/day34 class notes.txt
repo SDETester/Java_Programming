@@ -1,0 +1,101 @@
+Java Programlama Günü34
+
+Konular: OOP Soyutlama
+			- Arayüz
+
+paket adı: day34_abtraction
+
+ısınma görevleri:
+	1. Araba adlı soyut bir sınıf oluşturun
+			değişkenler:
+				marka (nihai), model (nihai), renk, yıl (nihai), fiyat
+
+			Tüm alanları kapsülleyin
+				Koşullar:
+					1. yıl 1886'dan az olamaz
+					2. fiyat negatif veya sıfırdan küçük olamaz
+
+			Tüm alanları ayarlayabilecek bir oluşturucu ekleyin
+				Not: Sınıf adı arabanın markasına ayarlanabilir
+
+			Yöntemler:
+				stop() (son): "Frene basın" yazdırır
+
+				start() (soyut)
+
+				toString(): print deyiminde bir araba nesnesi iletildiğinde verilen araba bilgisini yazdırır
+
+	2. Aşağıdaki Araba alt sınıflarını oluşturun
+			1.Honda
+			2.Audi
+					ekstra yöntemler:
+						otomatik Park()
+			3.Tesla
+					ekstra yöntemler:
+						otomatik Pilot()
+
+
+Hayvan görevi:
+	arayüz yüzebilir
+		yüzmek()
+
+	arayüz Uçulabilir
+			uçmak();
+
+	arayüz Vahşi:
+			avlanmak();
+
+	arayüz Esnek
+			Oyna();
+
+
+	soyutSınıf Hayvanı:
+		yemek();
+		İçmek();
+
+
+
+	Köpek uzatması Hayvan aletleri Esnek, Yüzülebilir
+
+	Cat Extend Hayvan aletleri Esnektir
+
+	İnek Uzatma Hayvan Aletleri Esnektir
+
+	At Uzatmalı Hayvan Aletleri Esnektir
+
+	Papağan, Hayvan aletlerini uzatır Esnektir, Uçulabilirdir
+
+	Kartal, Hayvan uygulamalarını Vahşi, Uçabilir olarak uzatır
+
+	Kaplan, Hayvanın vahşi aletlerini uzatır
+
+	Aslan Hayvan Vahşi uygular uygular
+
+	Falcon, Hayvan uygulamalarını Vahşi, Uçulabilir olarak genişletir
+
+	Köpekbalığı uzantısı Hayvan aletleri Vahşi, Yüzebilir
+
+	Dolphin Extend Hayvan aletleri Esnek, Yüzebilir
+
+	Ördek uzatması Hayvan aletleri Esnek, Yüzülebilir, Uçulabilir
+
+	Java, Animal uygulamalarını genişletir Esnek, Yüzülebilir, Uçulabilir, Vahşi
+
+
+
+Yüzebilir, Oynanabilir
+
+Tekne ekipmanı Yüzebilir
+
+Airpalne Flyable'ı uyguluyor
+
+CydeoCar Yüzebilir, Uçabilir uygular
+
+PlayStation Playable'ı uygular
+
+
+
+
+
+
+

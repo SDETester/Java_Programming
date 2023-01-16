@@ -1,0 +1,100 @@
+Java Programming Day11
+
+Topics: String Continue:
+			String Methods
+
+package name: day11_string
+
+Warmup tasks:
+	1. Create a class named LongestString
+			1.1 Ask the user to enter two strings
+			1.2 Write a program that can print the longest string, if both have the same number of characters then print "Equal"
+
+	2. Create a class named LogIn
+			2.1 Ask the user to enter the username & password
+			2.2 print "You are now logged in" If user entered valid username and password
+				otherwise print the error message "Incorrect username or password. Please try again"
+
+			Note: Assume that the valid credentials are:
+						username: Cydeo
+						password: WoodenSpoon
+
+	3. Create a class named DigitLetterSpecialChar and wirte a program that can ask the user to enter a word
+	        - if the word starts with digits, print "first character is digit"
+	        - if the word starts with uppercase letters, print "first character is lowercase letter"
+	        - if the word starts with lowercase letters, print "first character is uppercase letter"
+	        - if the word starts with special characters, print "first character is special character"
+
+
+        	HINT: You need to check the ascii table
+
+
+
+
+String Methods:
+	charAt(index): returns the character at the given index, returns char
+					String s = "Python"
+					s.charAt(3) ==> 'h'
+
+
+	length(): returns the total number of characters, returns int
+
+			last index: length() -1
+
+
+	toLowerCase(): returns new String in the lower case version of old string object
+
+
+	toUpperCase(): returns new String in the upper case version of old string object
+
+
+	trim(): returns new String without the white spaces (unused spaces)
+
+
+	indexOf(str): returns the index number of first occurred character. returns int
+
+
+	lastIndexOf(str): returns the index number of last occurred character. returns int
+
+
+	replace(oldValue, newValue): returns new string by repalcing All the old values with the given new value.
+
+
+	replaceFirst(oldValue, newValue): returns new string by repalcing  the FIRST matchingold values with the given new value.
+
+
+	substring(beginningIndex , endingIndex): creates substring starting from the given beginning index till the given edning index (ending index is excluded)
+
+					String str ="Cydeo School";
+				   str.substring(0,  4+1) ==> Cydeo
+
+
+	substring(beginningIndex): creates substring starting from the given beginning index till the end of the string
+
+					String str = "Cydeo School";
+						  str.substring(6) ==> School
+
+	repeat(count): repeats the string for given number of times. returns string
+
+
+	equals(str): checks if two string has the same text. returns boolean
+				Cannot ignore case sensitivity
+				DO NOT use == to compare two strings. use .equals()
+
+	equalsIgnoreCase(str):  checks if two strings are equal without case sensitivity
+
+
+	contains(str): checks if the given str is contained in the string. returns boolean  (has)
+
+				sentence = "My favorite programming languages are: C#, Java, JavaScript"   ;
+
+				sentence.contains("Python") //false
+
+
+	startsWith(str): checks if the string is started with given str. returns boolean
+			sentence = "Cybertek School is the best"
+
+			sentence.startsWith("Cybertek")
+
+
+	endsWith(str): checks if the string is ended with given str. returns boolean

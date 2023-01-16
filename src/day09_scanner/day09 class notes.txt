@@ -1,0 +1,90 @@
+Java Programming Day09
+
+Topics: Switch Statement Continue
+		Scanner Intro
+
+package name: day09_scanner
+
+Warmup tasks:
+	1. Create a class named CrewAndPassengers
+		Given a number of people on the ship (int number)
+		determine how many need to be crew members and how many can be passengers.
+		Print how many of each type there should be.
+
+                Total: 50  ====> 20 crew, 30 passengers
+                Total: 75  ====> 25 crew, 50 passengers
+                Total: 100 ====> 30 crew, 70 passengers
+                Any other number of people on the ship is not valid
+
+                Solution1: Use ternary. Do not use more than one println()
+                Solution2: Use switch statement. Do not use more than one println()
+
+    2. Create a class named NumberOfDays. An integer variable named month is given
+        Use switch statement to write a program that can find the number of days in the given number of month.
+
+                EX:
+                    month = 5
+
+                output:
+                    31 days
+
+                (Assume that February has 28 days)
+
+            Hints:
+            	Months that has 31 days: 1, 3, 5, 7, 8, 10, 12
+                Months that has 30 days: 4, 6, 9, 11
+
+
+
+Switch satement: switch, case, default, break
+
+    syntax:
+
+        switch(Data/Variable){
+
+            case data1:
+                Statements;
+                break;
+
+            case data2:
+                Statements;
+                break;
+
+            default:
+                Statements;
+
+        }
+
+
+        Switch' expression (Data) can not be boolean, float, double, long
+
+        Case value must be UNIQUE, and must match with switch expression's data type
+
+        break: used for exiting the switch
+
+        default block gets executed if none of the case values matched with swithc' expression
+
+        or logic we can use it in switch by declaring the case blocks back to back
+
+
+import statement: used for importing one java file to another
+
+        regular import: imports one single class from the specified package
+            import package.className
+
+        wild import: imports everything from the package
+            import package.*;
+
+
+Tasks:
+    1. Odd or Even number
+            1.1 Ask the user to enter a number
+            1.2 determine if the number is odd or even
+
+    2. Eligible or not Eligible to buy alcohol
+            2.1 Ask the user to enter his/her age
+            2.2 write a program that can check if the person eligible to buy alcohol
+
+    3. MonthName
+            3.1 Ask the user to enter a number
+            3.2 Display the month name
